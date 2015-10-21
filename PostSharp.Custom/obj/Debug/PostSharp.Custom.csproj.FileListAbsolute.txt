@@ -1,0 +1,28 @@
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.Custom.exe
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.Custom.pdb
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.dll
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.xml
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.Custom.pssym
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.exe
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.pdb
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.exe.postsharp
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.Patterns.Model.dll
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.csprojResolveAssemblyReference.cache
+D:\DEV\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.dll
+D:\DEV\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.xml
+D:\DEV\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.csprojResolveAssemblyReference.cache
+D:\DEV\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.Custom.exe
+D:\DEV\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.Custom.pdb
+D:\DEV\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.Custom.pssym
+D:\DEV\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.exe
+D:\DEV\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.pdb
+D:\DEV\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.exe.postsharp
+C:\dev\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.Custom.exe
+C:\dev\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.Custom.pdb
+C:\dev\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.dll
+C:\dev\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.xml
+C:\dev\PostSharp.FastTrack\PostSharp.Custom\bin\Debug\PostSharp.Custom.pssym
+C:\dev\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.csprojResolveAssemblyReference.cache
+C:\dev\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.exe
+C:\dev\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.pdb
+C:\dev\PostSharp.FastTrack\PostSharp.Custom\obj\Debug\PostSharp.Custom.exe.postsharp

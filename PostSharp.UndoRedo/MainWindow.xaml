@@ -1,0 +1,29 @@
+﻿<Window x:Name="window" x:Class="PostSharp.UndoRedo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:postsharp="clr-namespace:PostSharp.Patterns.Model.Controls;assembly=PostSharp.Patterns.Model.Controls"
+        Title="MainWindow" Height="350" Width="525" DataContext="{Binding ViewModel, Mode=OneWay, RelativeSource={RelativeSource Self}}">
+    <Grid TextBlock.FontSize="20">
+        <StackPanel Margin="0,0,0,0">
+            <WrapPanel Height="24">
+                <postsharp:UndoButton />
+                <postsharp:RedoButton />
+            </WrapPanel>
+            <WrapPanel Height="40">
+                <Label Content="First Name" Width="120"/>
+                <TextBox Height="35" TextWrapping="Wrap" Text="{Binding ViewModel.FirstName, ElementName=window, Mode=TwoWay}" Width="235" />
+            </WrapPanel>
+            <WrapPanel Height="43">
+                <Label Content="Last Name" Width="120"/>
+                <TextBox Height="35" TextWrapping="Wrap" Text="{Binding ViewModel.LastName, ElementName=window, Mode=TwoWay}" Width="235" />
+            </WrapPanel>
+            <WrapPanel Height="43">
+                <Label Content="Street" Width="120"/>
+                <TextBox Height="35" TextWrapping="Wrap" Text="{Binding ViewModel.Address.Street, ElementName=window, Mode=TwoWay}" Width="235" />
+            </WrapPanel>
+
+           <Button Content="Button" Click="Button_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

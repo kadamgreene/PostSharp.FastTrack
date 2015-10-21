@@ -1,0 +1,14 @@
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\bin\Debug\PostSharp.Aggregatable.exe.config
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\bin\Debug\PostSharp.Aggregatable.exe
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\bin\Debug\PostSharp.Aggregatable.pdb
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\bin\Debug\PostSharp.dll
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\bin\Debug\PostSharp.Patterns.Common.dll
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\bin\Debug\PostSharp.Patterns.Model.dll
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\bin\Debug\PostSharp.xml
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\bin\Debug\PostSharp.Patterns.Common.xml
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\bin\Debug\PostSharp.Patterns.Model.xml
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\bin\Debug\PostSharp.Aggregatable.pssym
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\obj\Debug\PostSharp.Aggregatable.csprojResolveAssemblyReference.cache
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\obj\Debug\PostSharp.Aggregatable.exe
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\obj\Debug\PostSharp.Aggregatable.pdb
+C:\dev\PostSharp.FastTrack\PostSharp.Aggregatable\obj\Debug\PostSharp.Aggregatable.exe.postsharp

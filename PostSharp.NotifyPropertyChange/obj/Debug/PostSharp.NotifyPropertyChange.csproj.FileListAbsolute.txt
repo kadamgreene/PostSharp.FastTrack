@@ -1,0 +1,55 @@
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.csprojResolveAssemblyReference.cache
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\App.g.cs
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange_MarkupCompile.cache
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.NotifyPropertyChange.exe
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.NotifyPropertyChange.pdb
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\MainWindow.baml
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\MainWindow.g.cs
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.g.resources
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.Properties.Resources.resources
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.csproj.GenerateResource.Cache
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.exe
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.pdb
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.dll
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.Patterns.Model.dll
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.xml
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.NotifyPropertyChange.pssym
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.exe.postsharp
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.NotifyPropertyChange.exe
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.NotifyPropertyChange.pdb
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.Patterns.Model.dll
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.xml
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.csprojResolveAssemblyReference.cache
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\MainWindow.baml
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\MainWindow.g.cs
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\App.g.cs
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange_MarkupCompile.cache
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.g.resources
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.Properties.Resources.resources
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.csproj.GenerateResource.Cache
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.exe
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.pdb
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.dll
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.NotifyPropertyChange.pssym
+D:\DEV\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.exe.postsharp
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.csprojResolveAssemblyReference.cache
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\MainWindow.baml
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\MainWindow.g.cs
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\App.g.cs
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange_MarkupCompile.cache
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.g.resources
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.Properties.Resources.resources
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.csproj.GenerateResource.Cache
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.NotifyPropertyChange.exe.config
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.NotifyPropertyChange.exe
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.NotifyPropertyChange.pdb
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.dll
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.Patterns.Common.dll
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.Patterns.Model.dll
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.xml
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.Patterns.Common.xml
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.Patterns.Model.xml
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\bin\Debug\PostSharp.NotifyPropertyChange.pssym
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.exe
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.pdb
+C:\dev\PostSharp.FastTrack\PostSharp.NotifyPropertyChange\obj\Debug\PostSharp.NotifyPropertyChange.exe.postsharp

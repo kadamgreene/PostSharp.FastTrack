@@ -1,0 +1,34 @@
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.ReaderWriterLock.exe
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.ReaderWriterLock.pdb
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.dll
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.Patterns.Threading.dll
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.xml
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.ReaderWriterLock.pssym
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.csprojResolveAssemblyReference.cache
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.exe
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.pdb
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.exe.postsharp
+D:\DEV\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.ReaderWriterLock.exe
+D:\DEV\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.ReaderWriterLock.pdb
+D:\DEV\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.xml
+D:\DEV\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.ReaderWriterLock.pssym
+D:\DEV\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.exe
+D:\DEV\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.pdb
+D:\DEV\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.exe.postsharp
+D:\DEV\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.csprojResolveAssemblyReference.cache
+D:\DEV\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.dll
+D:\DEV\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.Patterns.Threading.dll
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.ReaderWriterLock.exe.config
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.ReaderWriterLock.exe
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.ReaderWriterLock.pdb
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.dll
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.Patterns.Common.dll
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.Patterns.Threading.dll
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.xml
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.Patterns.Common.xml
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.Patterns.Threading.xml
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\bin\Debug\PostSharp.ReaderWriterLock.pssym
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.csprojResolveAssemblyReference.cache
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.exe
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.pdb
+C:\dev\PostSharp.FastTrack\PostSharp.ReaderWriterLock\obj\Debug\PostSharp.ReaderWriterLock.exe.postsharp

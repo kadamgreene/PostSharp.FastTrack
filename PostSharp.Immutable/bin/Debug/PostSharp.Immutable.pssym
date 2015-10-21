@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="17" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Evolution Source="#1=F:[PostSharp.Immutable]PostSharp.Immutable.Person::name" Target="#2=F:[PostSharp.Immutable]PostSharp.Immutable.Person::&lt;name&gt;k__OriginalField" />
+  <Evolution Source="#2" Target="#3=P:[PostSharp.Immutable]PostSharp.Immutable.Person::name()" />
+  <Evolution Source="#4=F:[PostSharp.Immutable]PostSharp.Immutable.Person::age" Target="#5=F:[PostSharp.Immutable]PostSharp.Immutable.Person::&lt;age&gt;k__OriginalField" />
+  <Evolution Source="#5" Target="#6=P:[PostSharp.Immutable]PostSharp.Immutable.Person::age()" />
+  <Evolution Source="#7=F:[PostSharp.Immutable]PostSharp.Immutable.Person::address" Target="#8=F:[PostSharp.Immutable]PostSharp.Immutable.Person::&lt;address&gt;k__OriginalField" />
+  <Evolution Source="#8" Target="#9=P:[PostSharp.Immutable]PostSharp.Immutable.Person::address()" />
+  <Evolution Source="#10=F:[PostSharp.Immutable]PostSharp.Immutable.Address::&lt;Street&gt;k__BackingField" Target="#11=F:[PostSharp.Immutable]PostSharp.Immutable.Address::&lt;Street&gt;k__OriginalField" />
+  <Evolution Source="#11" Target="#12=P:[PostSharp.Immutable]PostSharp.Immutable.Address::{Street}k__BackingField()" />
+  <Class Class="#13=T:[PostSharp.Patterns.Threading]PostSharp.Patterns.Threading.ImmutableAttribute">
+    <Instance Declaration="#14=T:[PostSharp.Immutable]PostSharp.Immutable.Person" Id="80a75ce10f0e07a8">
+      <Target />
+      <Target>
+        <JoinPoint Advising="#13" Description="#15=Overrides method OnChildAttached" Ordinal="7" LinesAvoided="0" />
+        <JoinPoint Advising="#13" Description="#16=Overrides method OnParentChanged" Ordinal="8" LinesAvoided="0" />
+        <JoinPoint Advising="#13" Description="#17=Introduces interface(s) IImmutable, IThreadAware" Ordinal="9" LinesAvoided="0" />
+        <JoinPoint Advised="#2" Advising="#13" Description="#18=Requires read access to the object" Semantic="Getter" Ordinal="10" LinesAvoided="1" />
+        <JoinPoint Advised="#2" Advising="#13" Description="#19=Requires write access to the object" Semantic="Setter" Ordinal="11" LinesAvoided="1" />
+        <JoinPoint Advised="#5" Advising="#13" Description="#18" Semantic="Getter" Ordinal="12" LinesAvoided="1" />
+        <JoinPoint Advised="#5" Advising="#13" Description="#19" Semantic="Setter" Ordinal="13" LinesAvoided="1" />
+        <JoinPoint Advised="#8" Advising="#13" Description="#18" Semantic="Getter" Ordinal="14" LinesAvoided="1" />
+        <JoinPoint Advised="#8" Advising="#13" Description="#19" Semantic="Setter" Ordinal="16" LinesAvoided="1" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#20=T:[PostSharp.Patterns.Threading]PostSharp.Patterns.Threading.FreezableAttribute">
+    <Instance Declaration="#21=T:[PostSharp.Immutable]PostSharp.Immutable.Address" Id="80a75ce17c510247">
+      <Target />
+      <Target>
+        <JoinPoint Advising="#20" Description="#15" Ordinal="24" LinesAvoided="0" />
+        <JoinPoint Advising="#20" Description="#16" Ordinal="25" LinesAvoided="0" />
+        <JoinPoint Advising="#20" Description="#22=Introduces interface(s) IFreezable, IThreadAware" Ordinal="26" LinesAvoided="5" />
+        <JoinPoint Advised="#11" Advising="#20" Description="#18" Semantic="Getter" Ordinal="27" LinesAvoided="1" />
+        <JoinPoint Advised="#11" Advising="#20" Description="#19" Semantic="Setter" Ordinal="28" LinesAvoided="1" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#23=T:[PostSharp.Patterns.Common]PostSharp.Patterns.Model.AggregatableAttribute">
+    <Instance Declaration="#14">
+      <Target>
+        <JoinPoint Description="#24=Introduces method VisitChildrenCore" Ordinal="0" LinesAvoided="0" />
+        <JoinPoint Description="#25=Introduces method OnChildDetached" LinesAvoided="0" />
+        <JoinPoint Description="#26=Introduces method OnChildAttached" Ordinal="2" LinesAvoided="0" />
+        <JoinPoint Description="#27=Introduces method OnAncestorChanged" Ordinal="3" LinesAvoided="0" />
+        <JoinPoint Description="#28=Introduces method OnParentChanged" Ordinal="4" LinesAvoided="0" />
+        <JoinPoint Description="#29=Introduces method VisitChildren" Ordinal="5" LinesAvoided="0" />
+        <JoinPoint Description="#30=Introduces interface(s) IAttachable, IAggregatable" Ordinal="6" LinesAvoided="0" />
+        <JoinPoint Advised="#8" Description="#31=Registers the value as a child of the current object" Semantic="Setter" Ordinal="15" LinesAvoided="1" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#21">
+      <Target>
+        <JoinPoint Description="#25" Ordinal="17" LinesAvoided="0" />
+        <JoinPoint Description="#24" Ordinal="18" LinesAvoided="0" />
+        <JoinPoint Description="#27" Ordinal="19" LinesAvoided="0" />
+        <JoinPoint Description="#28" Ordinal="20" LinesAvoided="0" />
+        <JoinPoint Description="#26" Ordinal="21" LinesAvoided="0" />
+        <JoinPoint Description="#29" Ordinal="22" LinesAvoided="0" />
+        <JoinPoint Description="#30" Ordinal="23" LinesAvoided="0" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#32=M:[PostSharp.Patterns.Threading]PostSharp.Patterns.Threading.ThreadAwareAttribute::OnSerializing(System.Runtime.Serialization.StreamingContext)" Arguments="#33=2" Description="#34=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#35=M:[PostSharp.Patterns.Common]PostSharp.Patterns.Model.AggregatableClientAttribute::InitializeAspectInstance(PostSharp.Aspects.Advices.AspectInitializationReason)" Arguments="#33" Description="#34" />
+  <Annotation Target="#36=M:[PostSharp.Patterns.Common]PostSharp.Patterns.Model.AggregatableAttribute::RuntimeInitializeInstance(PostSharp.Aspects.Advices.AspectInitializationReason)" Arguments="#33" Description="#34" />
+  <Annotation Target="#37=M:[PostSharp.Patterns.Common]PostSharp.Patterns.Model.AggregatableAttribute::OnAspectsInitialized(PostSharp.Aspects.Advices.AspectInitializationReason)" Arguments="#33" Description="#34" />
+  <Annotation Target="#38=M:[PostSharp.Patterns.Common]PostSharp.Patterns.Model.AggregatableAttribute::OnInstanceConstructed()" Arguments="#33" Description="#34" />
+</Symbols>

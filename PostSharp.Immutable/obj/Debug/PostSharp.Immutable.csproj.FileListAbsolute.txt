@@ -1,0 +1,14 @@
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\bin\Debug\PostSharp.Immutable.exe.config
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\bin\Debug\PostSharp.Immutable.exe
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\bin\Debug\PostSharp.Immutable.pdb
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\bin\Debug\PostSharp.dll
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\bin\Debug\PostSharp.Patterns.Common.dll
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\bin\Debug\PostSharp.Patterns.Threading.dll
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\bin\Debug\PostSharp.xml
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\bin\Debug\PostSharp.Patterns.Common.xml
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\bin\Debug\PostSharp.Patterns.Threading.xml
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\bin\Debug\PostSharp.Immutable.pssym
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\obj\Debug\PostSharp.Immutable.csprojResolveAssemblyReference.cache
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\obj\Debug\PostSharp.Immutable.exe
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\obj\Debug\PostSharp.Immutable.pdb
+C:\dev\PostSharp.FastTrack\PostSharp.Immutable\obj\Debug\PostSharp.Immutable.exe.postsharp

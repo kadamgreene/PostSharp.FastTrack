@@ -1,0 +1,1 @@
+c:\users\adam\documents\visual studio 2013\Projects\PostSharp.FastTrack\PostSharp.FastTrack\bin\Debug\PostSharp.FastTrack.exe.config

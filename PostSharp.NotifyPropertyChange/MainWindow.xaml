@@ -1,0 +1,26 @@
+﻿<Window x:Name="window" x:Class="PostSharp.NotifyPropertyChange.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.FontSize>24</Window.FontSize>
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" DataContext="{Binding Person, ElementName=window}">
+                <Label>First Name:</Label>
+                <Label Content="{Binding Path=FirstName}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" DataContext="{Binding Person, ElementName=window}">
+                <Label>Last Name:</Label>
+                <Label Content="{Binding Path=LastName}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" DataContext="{Binding Person, ElementName=window}">
+                <Label>Full Name:</Label>
+                <Label Content="{Binding Path=FullName}" />
+            </StackPanel>
+            <WrapPanel Orientation="Horizontal" DataContext="{Binding Person, ElementName=window}">
+                <Button x:Name="ChangeFirstName" Margin="5" Click="ChangeFirstName_Click">Change First Name</Button>
+                <Button x:Name="ChangeLastName" Margin="5" Click="ChangeLastName_Click">Change Last Name</Button>
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</Window>
