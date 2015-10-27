@@ -5,7 +5,7 @@
   <Evolution Source="#4=F:[PostSharp.NotifyPropertyChange]PostSharp.NotifyPropertyChange.Person::&lt;FirstName&gt;k__BackingField" Target="#5=F:[PostSharp.NotifyPropertyChange]PostSharp.NotifyPropertyChange.Person::&lt;FirstName&gt;k__OriginalField" />
   <Evolution Source="#5" Target="#6=P:[PostSharp.NotifyPropertyChange]PostSharp.NotifyPropertyChange.Person::{FirstName}k__BackingField()" />
   <Class Class="#7=T:[PostSharp.Patterns.Model]PostSharp.Patterns.Model.NotifyPropertyChangedAttribute">
-    <Instance Declaration="#8=T:[PostSharp.NotifyPropertyChange]PostSharp.NotifyPropertyChange.Person" Id="2fb2d613a556debf">
+    <Instance Declaration="#8=T:[PostSharp.NotifyPropertyChange]PostSharp.NotifyPropertyChange.Person" Id="2fb2d613ba911ab2">
       <Target />
       <Target>
         <JoinPoint Advising="#7" Description="#9=Introduces method QueryInterface" Ordinal="0" LinesAvoided="0" />

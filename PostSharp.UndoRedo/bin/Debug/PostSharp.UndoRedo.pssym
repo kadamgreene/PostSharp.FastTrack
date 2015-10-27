@@ -9,7 +9,7 @@
   <Evolution Source="#10=F:[PostSharp.UndoRedo]PostSharp.UndoRedo.Address::&lt;Street&gt;k__BackingField" Target="#11=F:[PostSharp.UndoRedo]PostSharp.UndoRedo.Address::&lt;Street&gt;k__OriginalField" />
   <Evolution Source="#11" Target="#12=P:[PostSharp.UndoRedo]PostSharp.UndoRedo.Address::{Street}k__BackingField()" />
   <Class Class="#13=T:[PostSharp.Patterns.Model]PostSharp.Patterns.Recording.RecordableAttribute">
-    <Instance Declaration="#14=T:[PostSharp.UndoRedo]PostSharp.UndoRedo.ViewModel" Id="8f641ffd86c85fca">
+    <Instance Declaration="#14=T:[PostSharp.UndoRedo]PostSharp.UndoRedo.ViewModel" Id="8f641ffdff343a83">
       <Target />
       <Target>
         <JoinPoint Advising="#13" Description="#15=Overrides method OnChildAttached" Ordinal="7" LinesAvoided="0" />
@@ -22,7 +22,7 @@
         <JoinPoint Advised="#8" Advising="#13" Description="#21" Semantic="Setter" Ordinal="34" LinesAvoided="1" />
       </Target>
     </Instance>
-    <Instance Declaration="#22=T:[PostSharp.UndoRedo]PostSharp.UndoRedo.Address" Id="8f641ffd12868aef">
+    <Instance Declaration="#22=T:[PostSharp.UndoRedo]PostSharp.UndoRedo.Address" Id="8f641ffdc3da6ad1">
       <Target />
       <Target>
         <JoinPoint Advising="#13" Description="#15" Ordinal="43" LinesAvoided="0" />
@@ -33,7 +33,7 @@
     </Instance>
   </Class>
   <Class Class="#24=T:[PostSharp.Patterns.Model]PostSharp.Patterns.Model.NotifyPropertyChangedAttribute">
-    <Instance Declaration="#14" Id="8f641ffdea2246ae">
+    <Instance Declaration="#14" Id="8f641ffd09764ac5">
       <Target />
       <Target>
         <JoinPoint Advising="#24" Description="#25=Introduces method OnChildPropertyChanging" Ordinal="9" LinesAvoided="0" />
@@ -58,7 +58,7 @@
         <JoinPoint Advised="#8" Advising="#24" Description="#38" Semantic="Setter" Ordinal="35" LinesAvoided="1" />
       </Target>
     </Instance>
-    <Instance Declaration="#22" Id="8f641ffd7bd09275">
+    <Instance Declaration="#22" Id="8f641ffd36d0430e">
       <Target />
       <Target>
         <JoinPoint Advising="#24" Description="#29" Ordinal="45" LinesAvoided="0" />

@@ -1,17 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Symbols LinesOfCode="31" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Class Class="#1=T:[PostSharp.Custom]PostSharp.Custom.TimedAttribute">
-    <Instance Declaration="#2=A:PostSharp.Custom" Id="8f0cf42c861ef09b">
+    <Instance Declaration="#2=A:PostSharp.Custom" Id="8f0cf42ceb4ea741">
       <Target Target="#3=M:[PostSharp.Custom]PostSharp.Custom.Services.GreetingsService::SayHello(System.String)" />
-      <Target Target="#3">
+      <Target Target="#3" LinesAvoided="4">
         <JoinPoint Description="#4=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" Ordinal="0" />
       </Target>
       <Target Target="#5=M:[PostSharp.Custom]PostSharp.Custom.Services.GreetingsService::SayGoodbye(System.String)" />
-      <Target Target="#5" />
+      <Target Target="#5" LinesAvoided="4" />
     </Instance>
   </Class>
-  <Annotation Target="#6=M:[PostSharp.Custom]PostSharp.Custom.TimedAttribute::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#7=2" Description="#8=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
-  <Annotation Target="#9=M:[PostSharp.Custom]PostSharp.Custom.TimedAttribute::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#7" Description="#8" />
-  <Annotation Target="#10=M:[PostSharp.Custom]PostSharp.Custom.TimedAttribute::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#7" Description="#8" />
-  <Annotation Target="#11=M:[PostSharp.Custom]PostSharp.Custom.TimedAttribute::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#7" Description="#8" />
 </Symbols>

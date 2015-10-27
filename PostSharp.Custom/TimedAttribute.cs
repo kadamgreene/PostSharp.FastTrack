@@ -7,6 +7,7 @@ using System.Diagnostics;
 namespace PostSharp.Custom
 {
     [Serializable]
+    [LinesOfCodeAvoided(4)]
     public sealed class TimedAttribute : OnMethodBoundaryAspect
     {
         #region Build-Time Logic

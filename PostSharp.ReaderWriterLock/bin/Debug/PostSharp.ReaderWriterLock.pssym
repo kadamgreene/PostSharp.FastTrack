@@ -5,7 +5,7 @@
   <Evolution Source="#4=F:[PostSharp.ReaderWriterLock]PostSharp.ReaderWriterLock.Calc::&lt;SecondNumber&gt;k__BackingField" Target="#5=F:[PostSharp.ReaderWriterLock]PostSharp.ReaderWriterLock.Calc::&lt;SecondNumber&gt;k__OriginalField" />
   <Evolution Source="#5" Target="#6=P:[PostSharp.ReaderWriterLock]PostSharp.ReaderWriterLock.Calc::{SecondNumber}k__BackingField()" />
   <Class Class="#7=T:[PostSharp.Patterns.Threading]PostSharp.Patterns.Threading.ReaderWriterSynchronizedAttribute">
-    <Instance Declaration="#8=T:[PostSharp.ReaderWriterLock]PostSharp.ReaderWriterLock.Calc" Id="5fa0071f820f9794">
+    <Instance Declaration="#8=T:[PostSharp.ReaderWriterLock]PostSharp.ReaderWriterLock.Calc" Id="5fa0071fdd5be2aa">
       <Target />
       <Target>
         <JoinPoint Advising="#7" Description="#9=Overrides method OnChildAttached" Ordinal="7" LinesAvoided="0" />

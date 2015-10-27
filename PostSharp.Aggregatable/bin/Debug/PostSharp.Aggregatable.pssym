@@ -1,34 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Symbols xmlns="http://schemas.postsharp.org/2.0/symbols">
+<Symbols LinesOfCode="44" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Evolution Source="#1=F:[PostSharp.Aggregatable]PostSharp.Aggregatable.Person::&lt;Addresses&gt;k__BackingField" Target="#2=F:[PostSharp.Aggregatable]PostSharp.Aggregatable.Person::&lt;Addresses&gt;k__OriginalField" />
   <Evolution Source="#2" Target="#3=P:[PostSharp.Aggregatable]PostSharp.Aggregatable.Person::{Addresses}k__BackingField()" />
   <Class Class="#4=T:[PostSharp.Patterns.Common]PostSharp.Patterns.Model.AggregatableAttribute">
-    <Instance Declaration="#5=T:[PostSharp.Aggregatable]PostSharp.Aggregatable.Address" Id="13bfa1670d291ea0">
+    <Instance Declaration="#5=T:[PostSharp.Aggregatable]PostSharp.Aggregatable.Address" Id="13bfa16788f9a1fc">
+      <Target />
       <Target>
-        <JoinPoint Advising="#4" Description="#6=Introduce method OnChildAttached" Ordinal="0" />
-        <JoinPoint Advising="#4" Description="#7=Introduce method OnParentChanged" Ordinal="0" />
-        <JoinPoint Advising="#4" Description="#8=Introduce method OnAncestorChanged" Ordinal="0" />
-        <JoinPoint Advising="#4" Description="#9=Introduce method OnChildDetached" Ordinal="0" />
-        <JoinPoint Advising="#4" Description="#10=Introduce method VisitChildren" Ordinal="0" />
-        <JoinPoint Advising="#4" Description="#11=Introduce interface(s) IAttachable, IAggregatable" Ordinal="0" />
+        <JoinPoint Advising="#4" Description="#6=Introduces method VisitChildrenCore" Ordinal="0" LinesAvoided="0" />
+        <JoinPoint Advising="#4" Description="#7=Introduces method OnChildAttached" LinesAvoided="0" />
+        <JoinPoint Advising="#4" Description="#8=Introduces method OnAncestorChanged" Ordinal="2" LinesAvoided="0" />
+        <JoinPoint Advising="#4" Description="#9=Introduces method OnParentChanged" Ordinal="3" LinesAvoided="0" />
+        <JoinPoint Advising="#4" Description="#10=Introduces method VisitChildren" Ordinal="4" LinesAvoided="0" />
+        <JoinPoint Advising="#4" Description="#11=Introduces method OnChildDetached" Ordinal="5" LinesAvoided="0" />
+        <JoinPoint Advising="#4" Description="#12=Introduces interface(s) IAttachable, IAggregatable" Ordinal="6" LinesAvoided="0" />
       </Target>
     </Instance>
   </Class>
-  <Class Class="#12=T:[PostSharp.Patterns.Model]PostSharp.Patterns.Model.DisposableAttribute">
-    <Instance Declaration="#13=T:[PostSharp.Aggregatable]PostSharp.Aggregatable.Person" Id="13bfa167f35b3cce">
+  <Class Class="#13=T:[PostSharp.Patterns.Model]PostSharp.Patterns.Model.DisposableAttribute">
+    <Instance Declaration="#14=T:[PostSharp.Aggregatable]PostSharp.Aggregatable.Person" Id="13bfa167bfff8b2d">
+      <Target />
       <Target>
-        <JoinPoint Advising="#4" Description="#9" Ordinal="0" />
-        <JoinPoint Advising="#4" Description="#7" Ordinal="0" />
-        <JoinPoint Advising="#4" Description="#6" Ordinal="0" />
-        <JoinPoint Advising="#4" Description="#10" Ordinal="0" />
-        <JoinPoint Advising="#4" Description="#8" Ordinal="0" />
-        <JoinPoint Advising="#4" Description="#11" Ordinal="0" />
-        <JoinPoint Advising="#12" Description="#14=Introduce method Dispose" Ordinal="0" />
-        <JoinPoint Advising="#12" Description="#14" Ordinal="0" />
-        <JoinPoint Advising="#12" Description="#15=Override method OnChildAttached" Ordinal="0" />
-        <JoinPoint Advising="#12" Description="#16=Introduce interface(s) IDisposable" Ordinal="0" />
-        <JoinPoint Advised="#2" Advising="#4" Description="#17=Intercepted by advice OnSetValue" Semantic="Setter" />
+        <JoinPoint Advising="#13" Description="#15=Introduces method Dispose" Ordinal="14" LinesAvoided="1" />
+        <JoinPoint Advising="#13" Description="#15" Ordinal="15" LinesAvoided="1" />
+        <JoinPoint Advising="#13" Description="#16=Overrides method OnChildAttached" Ordinal="16" LinesAvoided="0" />
+        <JoinPoint Advising="#13" Description="#17=Introduces interface(s) IDisposable" Ordinal="17" LinesAvoided="2" />
       </Target>
     </Instance>
   </Class>
+  <Class Class="#4">
+    <Instance Declaration="#14">
+      <Target>
+        <JoinPoint Description="#6" Ordinal="7" LinesAvoided="0" />
+        <JoinPoint Description="#11" Ordinal="8" LinesAvoided="0" />
+        <JoinPoint Description="#7" Ordinal="9" LinesAvoided="0" />
+        <JoinPoint Description="#9" Ordinal="10" LinesAvoided="0" />
+        <JoinPoint Description="#10" Ordinal="11" LinesAvoided="0" />
+        <JoinPoint Description="#8" Ordinal="12" LinesAvoided="0" />
+        <JoinPoint Description="#12" Ordinal="13" LinesAvoided="0" />
+        <JoinPoint Advised="#2" Description="#18=Registers the value as a child of the current object" Semantic="Setter" Ordinal="18" LinesAvoided="1" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#19=M:[PostSharp.Patterns.Common]PostSharp.Patterns.Model.AggregatableAttribute::RuntimeInitializeInstance(PostSharp.Aspects.Advices.AspectInitializationReason)" Arguments="#20=2" Description="#21=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#22=M:[PostSharp.Patterns.Common]PostSharp.Patterns.Model.AggregatableAttribute::OnAspectsInitialized(PostSharp.Aspects.Advices.AspectInitializationReason)" Arguments="#20" Description="#21" />
+  <Annotation Target="#23=M:[PostSharp.Patterns.Common]PostSharp.Patterns.Model.AggregatableAttribute::OnInstanceConstructed()" Arguments="#20" Description="#21" />
+  <Annotation Target="#24=M:[PostSharp.Patterns.Model]PostSharp.Patterns.Model.DisposableAttribute::OnMethodEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#20" Description="#21" />
+  <Annotation Target="#25=M:[PostSharp.Patterns.Common]PostSharp.Patterns.Model.AggregatableClientAttribute::InitializeAspectInstance(PostSharp.Aspects.Advices.AspectInitializationReason)" Arguments="#20" Description="#21" />
 </Symbols>

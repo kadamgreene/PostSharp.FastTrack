@@ -7,6 +7,7 @@ using PostSharp.Patterns.Threading;
 
 namespace PostSharp.ReaderWriterLock
 {
+    [ReaderWriterSynchronized]
     public class Calc
     {
         public double FirstNumber { 
@@ -19,6 +20,7 @@ namespace PostSharp.ReaderWriterLock
             set; 
         }
 
+        [Reader]
         public void Add()
         {
             Console.Write("{0}", FirstNumber);

@@ -9,7 +9,7 @@
   <Evolution Source="#10=F:[PostSharp.Immutable]PostSharp.Immutable.Address::&lt;Street&gt;k__BackingField" Target="#11=F:[PostSharp.Immutable]PostSharp.Immutable.Address::&lt;Street&gt;k__OriginalField" />
   <Evolution Source="#11" Target="#12=P:[PostSharp.Immutable]PostSharp.Immutable.Address::{Street}k__BackingField()" />
   <Class Class="#13=T:[PostSharp.Patterns.Threading]PostSharp.Patterns.Threading.ImmutableAttribute">
-    <Instance Declaration="#14=T:[PostSharp.Immutable]PostSharp.Immutable.Person" Id="80a75ce10f0e07a8">
+    <Instance Declaration="#14=T:[PostSharp.Immutable]PostSharp.Immutable.Person" Id="80a75ce1bdddf25a">
       <Target />
       <Target>
         <JoinPoint Advising="#13" Description="#15=Overrides method OnChildAttached" Ordinal="7" LinesAvoided="0" />
@@ -25,7 +25,7 @@
     </Instance>
   </Class>
   <Class Class="#20=T:[PostSharp.Patterns.Threading]PostSharp.Patterns.Threading.FreezableAttribute">
-    <Instance Declaration="#21=T:[PostSharp.Immutable]PostSharp.Immutable.Address" Id="80a75ce17c510247">
+    <Instance Declaration="#21=T:[PostSharp.Immutable]PostSharp.Immutable.Address" Id="80a75ce107c92e96">
       <Target />
       <Target>
         <JoinPoint Advising="#20" Description="#15" Ordinal="24" LinesAvoided="0" />

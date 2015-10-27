@@ -6,25 +6,180 @@
   <members>
     <member name="T:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator">
       <summary>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;summary&gt; documentation for "T:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator</parameter>
+          </include>
+        </markup>
       </summary>
     </member>
     <member name="M:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator.#ctor">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator" /> class</summary>
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="M:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator.CreateInstance(System.Type,PostSharp.Serialization.ActivatorSecurityToken)">
       <summary>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;summary&gt; documentation for "M:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator.CreateInstance(System.Type,PostSharp.Serialization.ActivatorSecurityToken)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator.CreateInstance(System.Type,PostSharp.Serialization.ActivatorSecurityToken)</parameter>
+          </include>
+        </markup>
       </summary>
       <param name="type">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="type"/&gt; documentation for "M:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator.CreateInstance(System.Type,PostSharp.Serialization.ActivatorSecurityToken)"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>type</parameter>
+            <parameter>M:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator.CreateInstance(System.Type,PostSharp.Serialization.ActivatorSecurityToken)</parameter>
+          </include>
+        </markup>
       </param>
       <param name="securityToken">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="securityToken"/&gt; documentation for "M:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator.CreateInstance(System.Type,PostSharp.Serialization.ActivatorSecurityToken)"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>securityToken</parameter>
+            <parameter>M:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator.CreateInstance(System.Type,PostSharp.Serialization.ActivatorSecurityToken)</parameter>
+          </include>
+        </markup>
       </param>
       <returns>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;returns&gt; documentation for "M:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator.CreateInstance(System.Type,PostSharp.Serialization.ActivatorSecurityToken)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.ImplementationDetails_b821dca3.__PS___z_Activator.CreateInstance(System.Type,PostSharp.Serialization.ActivatorSecurityToken)</parameter>
+          </include>
+        </markup>
       </returns>
+    </member>
+    <member name="T:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider">
+      <summary>
+            Base class for contract error messages providers.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.CreditCardErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.CreditCardAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.Current">
+      <summary>
+            Current instance of <see cref="T:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider" />.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.EmailAddressErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.EmailAddressAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.EnumDataTypeErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.EnumDataTypeAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="M:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.GetMessage(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.GetMessage(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="messageId">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>messageId</parameter>
+            <parameter>M:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.GetMessage(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.GetMessage(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.GreaterThanErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.GreaterThanAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.LessThanErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.LessThanAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.LocationContractErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.LocationContractAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.NotEmptyErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.NotEmptyAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.NotNullErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.NotNullAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.PhoneErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.PhoneAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.RangeErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.RangeAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.RegularExpressionErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.RegularExpressionAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.RequiredErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.RequiredAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.StrictlyGreaterThanErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.StrictlyGreaterThanAttribute" /> constraint is violated.
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.StringLengthMaxErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.StringLengthAttribute" /> constraint is violated (only maximum length was specified).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.StringLengthMinErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.StringLengthAttribute" /> constraint is violated (only minimum length was specified).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.StringLengthRangeErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.StringLengthAttribute" /> constraint is violated (both minimum and maximum was specified).
+            </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Contracts.ContractLocalizedTextProvider.UrlErrorMessage">
+      <summary>
+            Identifier of the error message shown when <see cref="T:PostSharp.Patterns.Contracts.UrlAttribute" /> constraint is violated.
+            </summary>
     </member>
     <member name="T:PostSharp.Patterns.Contracts.CreditCardAttribute">
       <summary>
@@ -94,6 +249,27 @@
             Initializes a new <see cref="T:PostSharp.Patterns.Contracts.GreaterThanAttribute" /> and specify a <see cref="T:System.UInt64" /> bound.
             </summary>
       <param name="min">The lower bound.</param>
+    </member>
+    <member name="M:PostSharp.Patterns.Contracts.GreaterThanAttribute.GetErrorMessage">
+      <summary>
+            Gets unformatted error message as defined by the instance.
+            </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Patterns.Contracts.GreaterThanAttribute.GetErrorMessage</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Patterns.Contracts.GreaterThanAttribute.GetErrorMessageArguments">
+      <summary>
+            Gets values of additional arguments for error message associated with particular instance of <see cref="T:PostSharp.Patterns.Contracts.LocationContractAttribute" />. 
+            There arguments can be referenced from error message string by <c>{4}</c>, <c>{5}</c> and so on.
+            </summary>
+      <returns>
+        <see cref="T:object[]" /> of additional argument values.</returns>
     </member>
     <member name="T:PostSharp.Patterns.Contracts.LessThanAttribute">
       <summary>
@@ -173,7 +349,28 @@
       <param name="locationName">Name of the location.</param>
       <param name="locationKind">Location kind.</param>
       <returns>A string derived from <see cref="P:PostSharp.Patterns.Contracts.LocationContractAttribute.ErrorMessage" />, where placeholders have been
-            replaced by their concrete value. </returns>
+            replaced by their concrete value.</returns>
+    </member>
+    <member name="M:PostSharp.Patterns.Contracts.LocationContractAttribute.GetErrorMessage">
+      <summary>
+            Gets unformatted error message as defined by the instance.
+            </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Patterns.Contracts.LocationContractAttribute.GetErrorMessage</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Patterns.Contracts.LocationContractAttribute.GetErrorMessageArguments">
+      <summary>
+            Gets values of additional arguments for error message associated with particular instance of <see cref="T:PostSharp.Patterns.Contracts.LocationContractAttribute" />. 
+            There arguments can be referenced from error message string by <c>{4}</c>, <c>{5}</c> and so on.
+            </summary>
+      <returns>
+        <see cref="T:object[]" /> of additional argument values.</returns>
     </member>
     <member name="T:PostSharp.Patterns.Contracts.NotEmptyAttribute">
       <summary>
@@ -261,14 +458,61 @@
     </member>
     <member name="M:PostSharp.Patterns.Contracts.RangeAttribute.CompileTimeValidate(System.Object)">
       <summary>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;summary&gt; documentation for "M:PostSharp.Patterns.Contracts.RangeAttribute.CompileTimeValidate(System.Object)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Contracts.RangeAttribute.CompileTimeValidate(System.Object)</parameter>
+          </include>
+        </markup>
       </summary>
       <param name="target">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="target"/&gt; documentation for "M:PostSharp.Patterns.Contracts.RangeAttribute.CompileTimeValidate(System.Object)"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>target</parameter>
+            <parameter>M:PostSharp.Patterns.Contracts.RangeAttribute.CompileTimeValidate(System.Object)</parameter>
+          </include>
+        </markup>
       </param>
       <returns>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;returns&gt; documentation for "M:PostSharp.Patterns.Contracts.RangeAttribute.CompileTimeValidate(System.Object)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Patterns.Contracts.RangeAttribute.CompileTimeValidate(System.Object)</parameter>
+          </include>
+        </markup>
       </returns>
+    </member>
+    <member name="P:PostSharp.Patterns.Contracts.RangeAttribute.DisplayMaxValue">
+      <summary>
+            Gets the maximal value to be used when generating the error message, typically in the implementation of <see cref="M:PostSharp.Patterns.Contracts.RangeAttribute.GetErrorMessageArguments" />.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Contracts.RangeAttribute.DisplayMinValue">
+      <summary>
+            Gets the minimal value to be used when generating the error message, typically in the implementation of <see cref="M:PostSharp.Patterns.Contracts.RangeAttribute.GetErrorMessageArguments" />.
+            </summary>
+    </member>
+    <member name="M:PostSharp.Patterns.Contracts.RangeAttribute.GetErrorMessage">
+      <summary>
+            Gets unformatted error message as defined by the instance.
+            </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Patterns.Contracts.RangeAttribute.GetErrorMessage</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Patterns.Contracts.RangeAttribute.GetErrorMessageArguments">
+      <summary>
+            Gets values of additional arguments for error message associated with particular instance of <see cref="T:PostSharp.Patterns.Contracts.LocationContractAttribute" />. 
+            There arguments can be referenced from error message string by <c>{4}</c>, <c>{5}</c> and so on.
+            </summary>
+      <returns>
+        <see cref="T:object[]" /> of additional argument values.</returns>
     </member>
     <member name="T:PostSharp.Patterns.Contracts.RegularExpressionAttribute">
       <summary>
@@ -290,6 +534,27 @@
             </summary>
       <param name="pattern">The regular expression.</param>
       <param name="options">Options.</param>
+    </member>
+    <member name="M:PostSharp.Patterns.Contracts.RegularExpressionAttribute.GetErrorMessage">
+      <summary>
+            Gets unformatted error message as defined by the instance.
+            </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Patterns.Contracts.RegularExpressionAttribute.GetErrorMessage</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Patterns.Contracts.RegularExpressionAttribute.GetErrorMessageArguments">
+      <summary>
+            Gets values of additional arguments for error message associated with particular instance of <see cref="T:PostSharp.Patterns.Contracts.LocationContractAttribute" />. 
+            There arguments can be referenced from error message string by <c>{4}</c>, <c>{5}</c> and so on.
+            </summary>
+      <returns>
+        <see cref="T:object[]" /> of additional argument values.</returns>
     </member>
     <member name="T:PostSharp.Patterns.Contracts.RequiredAttribute">
       <summary>
@@ -332,6 +597,27 @@
             Initializes a new <see cref="T:PostSharp.Patterns.Contracts.StrictlyGreaterThanAttribute" /> and specifies a <see cref="T:System.UInt64" /> bound.
             </summary>
       <param name="min">The lower bound.</param>
+    </member>
+    <member name="M:PostSharp.Patterns.Contracts.StrictlyGreaterThanAttribute.GetErrorMessage">
+      <summary>
+            Gets unformatted error message as defined by the instance.
+            </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Patterns.Contracts.StrictlyGreaterThanAttribute.GetErrorMessage</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Patterns.Contracts.StrictlyGreaterThanAttribute.GetErrorMessageArguments">
+      <summary>
+            Gets values of additional arguments for error message associated with particular instance of <see cref="T:PostSharp.Patterns.Contracts.LocationContractAttribute" />. 
+            There arguments can be referenced from error message string by <c>{4}</c>, <c>{5}</c> and so on.
+            </summary>
+      <returns>
+        <see cref="T:object[]" /> of additional argument values.</returns>
     </member>
     <member name="T:PostSharp.Patterns.Contracts.StrictlyPositiveAttribute">
       <summary>
@@ -405,216 +691,106 @@
       <summary>
             Specifies an explicit dependency between the calling method and the argument passed to this method.
             </summary>
-      <param name="dependency1">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency1"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object)"]</p>
-      </param>
+      <param name="dependency1"></param>
     </member>
     <member name="M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object)">
       <summary>
             Specifies an explicit dependency between the calling method and the arguments passed to this method.
             </summary>
-      <param name="dependency1">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency1"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency2">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency2"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object)"]</p>
-      </param>
+      <param name="dependency1"></param>
+      <param name="dependency2"></param>
     </member>
     <member name="M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object)">
       <summary>
             Specifies an explicit dependency between the calling method and the arguments passed to this method.
             </summary>
-      <param name="dependency1">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency1"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency2">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency2"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency3">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency3"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object)"]</p>
-      </param>
+      <param name="dependency1"></param>
+      <param name="dependency2"></param>
+      <param name="dependency3"></param>
     </member>
     <member name="M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object)">
       <summary>
             Specifies an explicit dependency between the calling method and the arguments passed to this method.
             </summary>
-      <param name="dependency1">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency1"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency2">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency2"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency3">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency3"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency4">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency4"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
+      <param name="dependency1"></param>
+      <param name="dependency2"></param>
+      <param name="dependency3"></param>
+      <param name="dependency4"></param>
     </member>
     <member name="M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object)">
       <summary>
             Specifies an explicit dependency between the calling method and the arguments passed to this method.
             </summary>
-      <param name="dependency1">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency1"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency2">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency2"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency3">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency3"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency4">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency4"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency5">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency5"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
+      <param name="dependency1"></param>
+      <param name="dependency2"></param>
+      <param name="dependency3"></param>
+      <param name="dependency4"></param>
+      <param name="dependency5"></param>
     </member>
     <member name="M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
       <summary>
             Specifies an explicit dependency between the calling method and the arguments passed to this method.
             </summary>
-      <param name="dependency1">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency1"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency2">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency2"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency3">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency3"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency4">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency4"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency5">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency5"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency6">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency6"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
+      <param name="dependency1"></param>
+      <param name="dependency2"></param>
+      <param name="dependency3"></param>
+      <param name="dependency4"></param>
+      <param name="dependency5"></param>
+      <param name="dependency6"></param>
     </member>
     <member name="M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
       <summary>
             Specifies an explicit dependency between the calling method and the arguments passed to this method.
             </summary>
-      <param name="dependency1">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency1"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency2">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency2"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency3">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency3"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency4">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency4"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency5">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency5"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency6">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency6"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency7">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency7"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
+      <param name="dependency1"></param>
+      <param name="dependency2"></param>
+      <param name="dependency3"></param>
+      <param name="dependency4"></param>
+      <param name="dependency5"></param>
+      <param name="dependency6"></param>
+      <param name="dependency7"></param>
     </member>
     <member name="M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
       <summary>
             Specifies an explicit dependency between the calling method and the arguments passed to this method.
             </summary>
-      <param name="dependency1">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency1"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency2">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency2"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency3">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency3"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency4">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency4"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency5">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency5"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency6">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency6"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency7">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency7"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency8">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency8"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
+      <param name="dependency1"></param>
+      <param name="dependency2"></param>
+      <param name="dependency3"></param>
+      <param name="dependency4"></param>
+      <param name="dependency5"></param>
+      <param name="dependency6"></param>
+      <param name="dependency7"></param>
+      <param name="dependency8"></param>
     </member>
     <member name="M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
       <summary>
             Specifies an explicit dependency between the calling method and the arguments passed to this method.
             </summary>
-      <param name="dependency1">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency1"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency2">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency2"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency3">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency3"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency4">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency4"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency5">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency5"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency6">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency6"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency7">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency7"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency8">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency8"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency9">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency9"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
+      <param name="dependency1"></param>
+      <param name="dependency2"></param>
+      <param name="dependency3"></param>
+      <param name="dependency4"></param>
+      <param name="dependency5"></param>
+      <param name="dependency6"></param>
+      <param name="dependency7"></param>
+      <param name="dependency8"></param>
+      <param name="dependency9"></param>
     </member>
     <member name="M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
       <summary>
             Specifies an explicit dependency between the calling method and the arguments passed to this method.
             </summary>
-      <param name="dependency1">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency1"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency2">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency2"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency3">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency3"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency4">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency4"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency5">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency5"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency6">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency6"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency7">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency7"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency8">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency8"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency9">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency9"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
-      <param name="dependency10">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="dependency10"/&gt; documentation for "M:PostSharp.Patterns.Model.Depends.On(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)"]</p>
-      </param>
+      <param name="dependency1"></param>
+      <param name="dependency2"></param>
+      <param name="dependency3"></param>
+      <param name="dependency4"></param>
+      <param name="dependency5"></param>
+      <param name="dependency6"></param>
+      <param name="dependency7"></param>
+      <param name="dependency8"></param>
+      <param name="dependency9"></param>
+      <param name="dependency10"></param>
     </member>
     <member name="T:PostSharp.Patterns.Model.DisposableAttribute">
       <summary>
@@ -624,44 +800,32 @@
             </summary>
     </member>
     <member name="M:PostSharp.Patterns.Model.DisposableAttribute.#ctor">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Model.DisposableAttribute" /> class</summary>
-    </member>
-    <member name="M:PostSharp.Patterns.Model.DisposableAttribute.#ctor(PostSharp.Serialization.PortableFormatterConstructorContext)">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Model.DisposableAttribute" /> class</summary>
-      <param name="context">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="context"/&gt; documentation for "M:PostSharp.Patterns.Model.DisposableAttribute.#ctor(PostSharp.Serialization.PortableFormatterConstructorContext)"]</p>
-      </param>
-    </member>
-    <member name="M:PostSharp.Patterns.Model.DisposableAttribute.Advise(System.Object)">
       <summary>
-            Injects the advice into the child object.
-            </summary>
-      <param name="obj">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="obj"/&gt; documentation for "M:PostSharp.Patterns.Model.DisposableAttribute.Advise(System.Object)"]</p>
-      </param>
-      <returns>
-        <c>true</c> if the children of <paramref name="obj" /> have to be advised as well, <c>false</c> otherwise.</returns>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>PostSharp.Patterns.Model.DisposableAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="M:PostSharp.Patterns.Model.DisposableAttribute.Dispose">
       <summary>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</summary>
     </member>
     <member name="M:PostSharp.Patterns.Model.DisposableAttribute.Dispose(System.Boolean)">
-      <summary>Releases the unmanaged resources used by the <see cref="T:PostSharp.Patterns.Model.DisposableAttribute" /> and optionally releases the managed resources</summary>
-      <param name="disposing">True to release both managed and unmanaged resources; false to release only unmanaged resources</param>
-    </member>
-    <member name="M:PostSharp.Patterns.Model.DisposableAttribute.IsEligibleChild(System.Object,PostSharp.Patterns.Model.ChildInfo)">
       <summary>
-            Determines if an object is eligible to be a child of the target instance of the current aspect.
-            </summary>
-      <param name="child">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="child"/&gt; documentation for "M:PostSharp.Patterns.Model.DisposableAttribute.IsEligibleChild(System.Object,PostSharp.Patterns.Model.ChildInfo)"]</p>
+        <markup>
+          <include item="SMCAutoDocDisposeBool">
+            <parameter>PostSharp.Patterns.Model.DisposableAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="disposing">
+        <markup>
+          <include item="SMCAutoDocDisposeParam">
+            <parameter>PostSharp.Patterns.Model.DisposableAttribute</parameter>
+          </include>
+        </markup>
       </param>
-      <param name="childInfo">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="childInfo"/&gt; documentation for "M:PostSharp.Patterns.Model.DisposableAttribute.IsEligibleChild(System.Object,PostSharp.Patterns.Model.ChildInfo)"]</p>
-      </param>
-      <returns>
-        <c>true</c> if <paramref name="child" /> is eligible to be a child without injecting any advice, otherwise <c>false</c>. When this method returns <c>false</c>,
-            the aspect will the invoke the <see cref="M:PostSharp.Patterns.Model.AggregatableClientAttribute.Advise(System.Object)" /> method. </returns>
     </member>
     <member name="P:PostSharp.Patterns.Model.DisposableAttribute.ThrowObjectDisposedException">
       <summary>
@@ -676,7 +840,13 @@
             </summary>
     </member>
     <member name="M:PostSharp.Patterns.Model.IgnoreAutoChangeNotificationAttribute.#ctor">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Model.IgnoreAutoChangeNotificationAttribute" /> class</summary>
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>PostSharp.Patterns.Model.IgnoreAutoChangeNotificationAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="T:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute">
       <summary>
@@ -687,12 +857,6 @@
       <summary>
             Initializes a new instance of the <see cref="T:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute" /> class that stores strong references to the client delegates.
             </summary>
-    </member>
-    <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.#ctor(PostSharp.Serialization.PortableFormatterConstructorContext)">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute" /> class</summary>
-      <param name="context">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="context"/&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.#ctor(PostSharp.Serialization.PortableFormatterConstructorContext)"]</p>
-      </param>
     </member>
     <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.#ctor(System.Boolean)">
       <summary>
@@ -706,52 +870,224 @@
     </member>
     <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)">
       <summary>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;summary&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)</parameter>
+          </include>
+        </markup>
       </summary>
       <param name="type">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="type"/&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>type</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)</parameter>
+          </include>
+        </markup>
       </param>
       <param name="aspectInfo">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="aspectInfo"/&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>aspectInfo</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)</parameter>
+          </include>
+        </markup>
       </param>
     </member>
     <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeValidate(System.Type)">
       <summary>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;summary&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeValidate(System.Type)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeValidate(System.Type)</parameter>
+          </include>
+        </markup>
       </summary>
       <param name="type">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="type"/&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeValidate(System.Type)"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>type</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeValidate(System.Type)</parameter>
+          </include>
+        </markup>
       </param>
       <returns>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;returns&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeValidate(System.Type)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CompileTimeValidate(System.Type)</parameter>
+          </include>
+        </markup>
       </returns>
     </member>
     <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CreateInstance(PostSharp.Aspects.AdviceArgs)">
       <summary>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;summary&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CreateInstance(PostSharp.Aspects.AdviceArgs)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CreateInstance(PostSharp.Aspects.AdviceArgs)</parameter>
+          </include>
+        </markup>
       </summary>
       <param name="adviceArgs">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="adviceArgs"/&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CreateInstance(PostSharp.Aspects.AdviceArgs)"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>adviceArgs</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CreateInstance(PostSharp.Aspects.AdviceArgs)</parameter>
+          </include>
+        </markup>
       </param>
       <returns>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;returns&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CreateInstance(PostSharp.Aspects.AdviceArgs)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.CreateInstance(PostSharp.Aspects.AdviceArgs)</parameter>
+          </include>
+        </markup>
       </returns>
     </member>
     <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnCloned(PostSharp.Aspects.ICloneAwareAspect)">
       <summary>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;summary&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnCloned(PostSharp.Aspects.ICloneAwareAspect)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnCloned(PostSharp.Aspects.ICloneAwareAspect)</parameter>
+          </include>
+        </markup>
       </summary>
       <param name="source">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="source"/&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnCloned(PostSharp.Aspects.ICloneAwareAspect)"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>source</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnCloned(PostSharp.Aspects.ICloneAwareAspect)</parameter>
+          </include>
+        </markup>
       </param>
     </member>
-    <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.RuntimeInitialize(System.Type)">
+    <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0,PostSharp.Reflection.DeclarationIdentifier)">
       <summary>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;summary&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.RuntimeInitialize(System.Type)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
       </summary>
-      <param name="type">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="type"/&gt; documentation for "M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.RuntimeInitialize(System.Type)"]</p>
+      <param name="binding">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>binding</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
       </param>
+      <param name="instance">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>instance</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>value</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="declarationIdentifier">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>declarationIdentifier</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
+      </param>
+      <typeparam name="T">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>typeparam</parameter>
+            <parameter>T</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
+      </typeparam>
+    </member>
+    <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnPropertyGet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0@,PostSharp.Reflection.DeclarationIdentifier)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnPropertyGet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0@,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="binding">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>binding</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnPropertyGet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0@,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="instance">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>instance</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnPropertyGet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0@,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>value</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnPropertyGet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0@,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="declarationIdentifier">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>declarationIdentifier</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnPropertyGet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0@,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
+      </param>
+      <typeparam name="T">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>typeparam</parameter>
+            <parameter>T</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.OnPropertyGet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0@,PostSharp.Reflection.DeclarationIdentifier)</parameter>
+          </include>
+        </markup>
+      </typeparam>
+    </member>
+    <member name="P:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.PrincipalObject">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute.PrincipalObject</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="T:PostSharp.Patterns.Model.NotifyPropertyChangedAttributeTargetClass">
       <summary>
@@ -761,7 +1097,13 @@
             </summary>
     </member>
     <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedAttributeTargetClass.#ctor">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Model.NotifyPropertyChangedAttributeTargetClass" /> class</summary>
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>PostSharp.Patterns.Model.NotifyPropertyChangedAttributeTargetClass</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedAttributeTargetClass.OnPropertyChanged(System.String)">
       <summary>
@@ -806,6 +1148,11 @@
             Utility methods to work with the <see cref="T:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute" /> aspect.
             </summary>
     </member>
+    <member name="P:PostSharp.Patterns.Model.NotifyPropertyChangedServices.PropertyChangingAdapter">
+      <summary>
+            Gets or sets currently active <see cref="T:PostSharp.Patterns.Model.NotifyPropertyChangingAdapter" /> object.
+            </summary>
+    </member>
     <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedServices.RaiseEventsImmediate(System.Object)">
       <summary>
             Raises all <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" /> events that are currently stored in the event buffer for the current thread
@@ -819,6 +1166,62 @@
             suspending by the <see cref="M:PostSharp.Patterns.Model.NotifyPropertyChangedServices.SuspendEvents" /> method.
             </summary>
     </member>
+    <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedServices.SignalPropertyChanged(System.Object,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedServices.SignalPropertyChanged(System.Object,System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="instance">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>instance</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedServices.SignalPropertyChanged(System.Object,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="propertyName">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>propertyName</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedServices.SignalPropertyChanged(System.Object,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedServices.SignalPropertyChanging(System.Object,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedServices.SignalPropertyChanging(System.Object,System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="instance">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>instance</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedServices.SignalPropertyChanging(System.Object,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="propertyName">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>propertyName</parameter>
+            <parameter>M:PostSharp.Patterns.Model.NotifyPropertyChangedServices.SignalPropertyChanging(System.Object,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
     <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangedServices.SuspendEvents">
       <summary>
             Suspends the raising of <see cref="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged" /> events for the current thread.
@@ -826,25 +1229,69 @@
       <returns>
         <c>true</c> if events were suspended as a result of the current method call, <c>false</c> if events were already suspended before.</returns>
     </member>
+    <member name="T:PostSharp.Patterns.Model.NotifyPropertyChangingAdapter">
+      <summary>
+            Provides a unified adapter to the different variants of the <c>INotifyPropertyChanging</c> interface.
+            </summary>
+    </member>
+    <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangingAdapter.#ctor(PostSharp.Patterns.Model.NotifyPropertyChangingAdapter)">
+      <summary>
+            Initializes a new instance of the <see cref="T:PostSharp.Patterns.Model.NotifyPropertyChangingAdapter" /> class.
+            </summary>
+      <param name="next">Next item in the chain of responsibility. Pass the current value of the <see cref="P:PostSharp.Patterns.Model.NotifyPropertyChangedServices.PropertyChangingAdapter" /> property to this parameter.</param>
+    </member>
+    <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangingAdapter.AddHandler(System.Object,System.Action{System.String})">
+      <summary>
+            Adds a handler to PropertyChanging event.
+            </summary>
+      <param name="instance">Instance.</param>
+      <param name="handler">Handler delegate that receives property name as an argument.</param>
+      <returns>
+        <see cref="T:System.Delegate" /> that was registered to the event or <value>null</value> if instance does not implement the represented interface.</returns>
+    </member>
+    <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangingAdapter.IsSupported(System.Object)">
+      <summary>
+            Determines whether the <c>NotifyPropertyChanging</c> behavior is supported for a given object.
+            </summary>
+      <param name="instance">Instance.</param>
+      <returns>
+        <c>true</c> if <paramref name="instance" /> is supported, otherwise <c>false</c>.</returns>
+    </member>
+    <member name="P:PostSharp.Patterns.Model.NotifyPropertyChangingAdapter.Next">
+      <summary>
+            Gets the next <see cref="T:PostSharp.Patterns.Model.NotifyPropertyChangingAdapter" /> in the chain.
+            </summary>
+    </member>
+    <member name="M:PostSharp.Patterns.Model.NotifyPropertyChangingAdapter.RemoveHandler(System.Object,System.Delegate)">
+      <summary>
+            Removes a handler from PropertyChanging event.
+            </summary>
+      <param name="instance">Instance.</param>
+      <param name="handler">Delegate that was registered to the event.</param>
+      <returns>
+        <c>true</c> if instance implements the represented interface, <c>false</c> otherwise.</returns>
+    </member>
     <member name="T:PostSharp.Patterns.Model.PropertyPath">
       <summary>
             Immutable property path with all components interned.
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Model.PropertyPath.#ctor(PostSharp.Serialization.PortableFormatterConstructorContext)">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Model.PropertyPath" /> class</summary>
-      <param name="context">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="context"/&gt; documentation for "M:PostSharp.Patterns.Model.PropertyPath.#ctor(PostSharp.Serialization.PortableFormatterConstructorContext)"]</p>
-      </param>
+    <member name="M:PostSharp.Patterns.Model.PropertyPath.Equals(PostSharp.Patterns.Model.PropertyPath)">
+      <summary>
+            Determines whether the current <see cref="T:PostSharp.Patterns.Model.PropertyPath" /> is equal to another.
+            </summary>
+      <param name="other">Another <see cref="T:PostSharp.Patterns.Model.PropertyPath" />.</param>
+      <returns>
+        <c>true</c> if the current <see cref="T:PostSharp.Patterns.Model.PropertyPath" /> equals <paramref name="other" />, otherwise <c>false</c>.</returns>
     </member>
     <member name="M:PostSharp.Patterns.Model.PropertyPath.Equals(System.Object)">
-      <summary>Determines whether the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />.</summary>
+      <summary>Determines whether the specified object is equal to the current object.</summary>
       <param name="obj">The object to compare with the current object. </param>
-      <returns>true if the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />; otherwise, false.</returns>
+      <returns>true if the specified object  is equal to the current object; otherwise, false.</returns>
     </member>
     <member name="M:PostSharp.Patterns.Model.PropertyPath.GetHashCode">
-      <summary>Serves as a hash function for a particular type. </summary>
-      <returns>A hash code for the current <see cref="T:System.Object" />.</returns>
+      <summary>Serves as the default hash function. </summary>
+      <returns>A hash code for the current object.</returns>
     </member>
     <member name="M:PostSharp.Patterns.Model.PropertyPath.ToString">
       <summary>Returns a string that represents the current object.</summary>
@@ -860,18 +1307,54 @@
             </summary>
     </member>
     <member name="M:PostSharp.Patterns.Model.PureAttribute.#ctor">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Model.PureAttribute" /> class</summary>
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>PostSharp.Patterns.Model.PureAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="M:PostSharp.Patterns.Model.PureAttribute.CompileTimeValidate(System.Object)">
       <summary>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;summary&gt; documentation for "M:PostSharp.Patterns.Model.PureAttribute.CompileTimeValidate(System.Object)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Model.PureAttribute.CompileTimeValidate(System.Object)</parameter>
+          </include>
+        </markup>
       </summary>
       <param name="target">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="target"/&gt; documentation for "M:PostSharp.Patterns.Model.PureAttribute.CompileTimeValidate(System.Object)"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>target</parameter>
+            <parameter>M:PostSharp.Patterns.Model.PureAttribute.CompileTimeValidate(System.Object)</parameter>
+          </include>
+        </markup>
       </param>
       <returns>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;returns&gt; documentation for "M:PostSharp.Patterns.Model.PureAttribute.CompileTimeValidate(System.Object)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Patterns.Model.PureAttribute.CompileTimeValidate(System.Object)</parameter>
+          </include>
+        </markup>
       </returns>
+    </member>
+    <member name="T:PostSharp.Patterns.Model.RelayCollectionChangesAttribute">
+      <summary>
+            Instructs <see cref="T:PostSharp.Patterns.Model.NotifyPropertyChangedAttribute" /> to relay any observed changes of the collection returned by this property as a change to the property itself.
+            </summary>
+    </member>
+    <member name="M:PostSharp.Patterns.Model.RelayCollectionChangesAttribute.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>PostSharp.Patterns.Model.RelayCollectionChangesAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="T:PostSharp.Patterns.Model.SafeForDependencyAnalysisAttribute">
       <summary>
@@ -881,7 +1364,13 @@
             </summary>
     </member>
     <member name="M:PostSharp.Patterns.Model.SafeForDependencyAnalysisAttribute.#ctor">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Model.SafeForDependencyAnalysisAttribute" /> class</summary>
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>PostSharp.Patterns.Model.SafeForDependencyAnalysisAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="T:PostSharp.Patterns.Recording.EditableObjectAttribute">
       <summary>
@@ -889,13 +1378,13 @@
             </summary>
     </member>
     <member name="M:PostSharp.Patterns.Recording.EditableObjectAttribute.#ctor">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Recording.EditableObjectAttribute" /> class</summary>
-    </member>
-    <member name="M:PostSharp.Patterns.Recording.EditableObjectAttribute.#ctor(PostSharp.Serialization.PortableFormatterConstructorContext)">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Recording.EditableObjectAttribute" /> class</summary>
-      <param name="context">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="context"/&gt; documentation for "M:PostSharp.Patterns.Recording.EditableObjectAttribute.#ctor(PostSharp.Serialization.PortableFormatterConstructorContext)"]</p>
-      </param>
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>PostSharp.Patterns.Recording.EditableObjectAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="T:PostSharp.Patterns.Recording.IRecordable">
       <summary>
@@ -968,7 +1457,13 @@
             </summary>
     </member>
     <member name="M:PostSharp.Patterns.Recording.NotRecordedAttribute.#ctor">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Recording.NotRecordedAttribute" /> class</summary>
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>PostSharp.Patterns.Recording.NotRecordedAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operation">
       <summary>
@@ -1026,9 +1521,7 @@
       <summary>
             Executes a given action on all recordable objects involved with the current <see cref="T:PostSharp.Patterns.Recording.Operation" />.
             </summary>
-      <param name="action">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="action"/&gt; documentation for "M:PostSharp.Patterns.Recording.Operation.VisitAffectedObjects(System.Action{System.Object})"]</p>
-      </param>
+      <param name="action"></param>
     </member>
     <member name="T:PostSharp.Patterns.Recording.OperationCollection">
       <summary>
@@ -1055,14 +1548,21 @@
     </member>
     <member name="M:PostSharp.Patterns.Recording.OperationCollection.GetEnumerator">
       <summary>Returns an enumerator that iterates through the collection.</summary>
-      <returns>A <see cref="T:System.Collections.Generic.IEnumerator`1" /> that can be used to iterate through the collection.</returns>
+      <returns>An enumerator that can be used to iterate through the collection.</returns>
     </member>
     <member name="P:PostSharp.Patterns.Recording.OperationCollection.IsReadOnly">
       <summary>Gets a value indicating whether the <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only.</summary>
       <returns>true if the <see cref="T:System.Collections.Generic.ICollection`1" /> is read-only; otherwise, false.</returns>
     </member>
     <member name="E:PostSharp.Patterns.Recording.OperationCollection.PropertyChanged">
-      <summary>Occurs when a property value changes.</summary>
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>E:PostSharp.Patterns.Recording.OperationCollection.PropertyChanged</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="M:PostSharp.Patterns.Recording.OperationCollection.Trim(PostSharp.Patterns.Recording.RestorePoint)">
       <summary>
@@ -1146,6 +1646,21 @@
         <see cref="T:PostSharp.Patterns.Recording.Operations.SetCollectionItemOperation`1" />
       </summary>
     </member>
+    <member name="F:PostSharp.Patterns.Recording.OperationKind.MoveCollectionItem">
+      <summary>
+        <see cref="T:PostSharp.Patterns.Recording.Operations.MoveCollectionItemOperation`1" />
+      </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Recording.OperationKind.InsertCollectionRange">
+      <summary>
+        <see cref="T:PostSharp.Patterns.Recording.Operations.AddCollectionRangeOperation`1" />
+      </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Recording.OperationKind.RemoveCollectionRange">
+      <summary>
+        <see cref="T:PostSharp.Patterns.Recording.Operations.RemoveCollectionItemOperation`1" />
+      </summary>
+    </member>
     <member name="F:PostSharp.Patterns.Recording.OperationKind.RestorePoint">
       <summary>
         <see cref="T:PostSharp.Patterns.Recording.RestorePoint" />
@@ -1181,6 +1696,26 @@
         <see cref="T:PostSharp.Patterns.Recording.Operations.ClearDictionaryOperation`2" />
       </summary>
     </member>
+    <member name="F:PostSharp.Patterns.Recording.OperationKind.InsertSetItem">
+      <summary>
+        <see cref="T:PostSharp.Patterns.Recording.Operations.AddSetItemOperation`1" />
+      </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Recording.OperationKind.RemoveSetItem">
+      <summary>
+        <see cref="T:PostSharp.Patterns.Recording.Operations.RemoveSetItemOperation`1" />
+      </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Recording.OperationKind.ClearSet">
+      <summary>
+        <see cref="T:PostSharp.Patterns.Recording.Operations.ClearSetOperation`1" />
+      </summary>
+    </member>
+    <member name="F:PostSharp.Patterns.Recording.OperationKind.ChangeManySetItems">
+      <summary>
+        <see cref="T:PostSharp.Patterns.Recording.Operations.ChangeManySetOperation`1" />
+      </summary>
+    </member>
     <member name="F:PostSharp.Patterns.Recording.OperationKind.Other">
       <summary>
             User-defined operation. Any value higher than <see cref="F:PostSharp.Patterns.Recording.OperationKind.Other" /> is acceptable.
@@ -1197,12 +1732,6 @@
             Initializes a new instance of the <seealso cref="T:PostSharp.Patterns.Recording.RecordableAttribute" /> class.
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.RecordableAttribute.#ctor(PostSharp.Serialization.PortableFormatterConstructorContext)">
-      <summary>Initializes a new instance of the <see cref="T:PostSharp.Patterns.Recording.RecordableAttribute" /> class</summary>
-      <param name="context">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="context"/&gt; documentation for "M:PostSharp.Patterns.Recording.RecordableAttribute.#ctor(PostSharp.Serialization.PortableFormatterConstructorContext)"]</p>
-      </param>
-    </member>
     <member name="P:PostSharp.Patterns.Recording.RecordableAttribute.AutoRecord">
       <summary>
             Determines whether changes in this object must be recorded as soon as the object constructor has completed.
@@ -1210,14 +1739,104 @@
     </member>
     <member name="M:PostSharp.Patterns.Recording.RecordableAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)">
       <summary>
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;summary&gt; documentation for "M:PostSharp.Patterns.Recording.RecordableAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)"]</p>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Recording.RecordableAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)</parameter>
+          </include>
+        </markup>
       </summary>
       <param name="type">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="type"/&gt; documentation for "M:PostSharp.Patterns.Recording.RecordableAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>type</parameter>
+            <parameter>M:PostSharp.Patterns.Recording.RecordableAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)</parameter>
+          </include>
+        </markup>
       </param>
       <param name="aspectInfo">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="aspectInfo"/&gt; documentation for "M:PostSharp.Patterns.Recording.RecordableAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>aspectInfo</parameter>
+            <parameter>M:PostSharp.Patterns.Recording.RecordableAttribute.CompileTimeInitialize(System.Type,PostSharp.Aspects.AspectInfo)</parameter>
+          </include>
+        </markup>
       </param>
+    </member>
+    <member name="M:PostSharp.Patterns.Recording.RecordableAttribute.CompileTimeValidate(System.Type)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Recording.RecordableAttribute.CompileTimeValidate(System.Type)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="type">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>type</parameter>
+            <parameter>M:PostSharp.Patterns.Recording.RecordableAttribute.CompileTimeValidate(System.Type)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:PostSharp.Patterns.Recording.RecordableAttribute.CompileTimeValidate(System.Type)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:PostSharp.Patterns.Recording.RecordableAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:PostSharp.Patterns.Recording.RecordableAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="binding">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>binding</parameter>
+            <parameter>M:PostSharp.Patterns.Recording.RecordableAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="instance">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>instance</parameter>
+            <parameter>M:PostSharp.Patterns.Recording.RecordableAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>value</parameter>
+            <parameter>M:PostSharp.Patterns.Recording.RecordableAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0)</parameter>
+          </include>
+        </markup>
+      </param>
+      <typeparam name="T">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>typeparam</parameter>
+            <parameter>T</parameter>
+            <parameter>M:PostSharp.Patterns.Recording.RecordableAttribute.OnFieldSet``1(PostSharp.Aspects.ILocationBinding{``0},System.Object,``0)</parameter>
+          </include>
+        </markup>
+      </typeparam>
     </member>
     <member name="P:PostSharp.Patterns.Recording.RecordableAttribute.ProvideMethodContext">
       <summary>
@@ -1312,7 +1931,14 @@
             or <see cref="M:PostSharp.Patterns.Recording.RecordingScope.Dispose" />.</returns>
     </member>
     <member name="E:PostSharp.Patterns.Recording.Recorder.PropertyChanged">
-      <summary>Occurs when a property value changes.</summary>
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>E:PostSharp.Patterns.Recording.Recorder.PropertyChanged</parameter>
+          </include>
+        </markup>
+      </summary>
     </member>
     <member name="M:PostSharp.Patterns.Recording.Recorder.Redo">
       <summary>
@@ -1516,12 +2142,6 @@
             Gets the kind of operation. 
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.RestorePoint.Redo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Redo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
-    </member>
     <member name="M:PostSharp.Patterns.Recording.RestorePoint.Remove">
       <summary>
             Removes the current <see cref="T:PostSharp.Patterns.Recording.RestorePoint" /> from the <see cref="P:PostSharp.Patterns.Recording.Recorder.UndoOperations" /> or <see cref="P:PostSharp.Patterns.Recording.Recorder.RedoOperations" />.
@@ -1534,19 +2154,11 @@
             Gets the name of the current <see cref="T:PostSharp.Patterns.Recording.RestorePoint" />.
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.RestorePoint.Undo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Undo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
-    </member>
     <member name="M:PostSharp.Patterns.Recording.RestorePoint.VisitAffectedObjects(System.Action{System.Object})">
       <summary>
             Executes a given action on all recordable objects involved with the current <see cref="T:PostSharp.Patterns.Recording.Operation" />.
             </summary>
-      <param name="action">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="action"/&gt; documentation for "M:PostSharp.Patterns.Recording.RestorePoint.VisitAffectedObjects(System.Action{System.Object})"]</p>
-      </param>
+      <param name="action"></param>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.AddCollectionItemOperation`1">
       <summary>
@@ -1569,17 +2181,26 @@
             Gets the kind of operation. 
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.AddCollectionItemOperation`1.Redo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="T:PostSharp.Patterns.Recording.Operations.AddCollectionRangeOperation`1">
       <summary>
-            Redo the current operation.
+            Represents a <see cref="M:PostSharp.Patterns.Collections.AdvisableCollection`1.AddRange(System.Collections.Generic.IEnumerable{`0})" /> or <see cref="M:PostSharp.Patterns.Collections.AdvisableCollection`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})" /> operation.
             </summary>
-      <param name="context">Reserved for future use.</param>
+      <typeparam name="T">Type of collection items.</typeparam>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.AddCollectionItemOperation`1.Undo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="P:PostSharp.Patterns.Recording.Operations.AddCollectionRangeOperation`1.NewIndex">
       <summary>
-            Undo the current operation.
+            Gets the index after the operation.
             </summary>
-      <param name="context">Reserved for future use.</param>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.AddCollectionRangeOperation`1.NewItems">
+      <summary>
+            Gets the items that were added to the set after the operation.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.AddCollectionRangeOperation`1.OperationKind">
+      <summary>
+            Gets the kind of operation. 
+            </summary>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.AddDictionaryItemOperation`2">
       <summary>
@@ -1603,17 +2224,21 @@
             Gets the kind of operation. 
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.AddDictionaryItemOperation`2.Redo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="T:PostSharp.Patterns.Recording.Operations.AddSetItemOperation`1">
       <summary>
-            Redo the current operation.
+            Represents a <see cref="M:PostSharp.Patterns.Collections.AdvisableHashSet`1.Add(`0)" /> operation.
             </summary>
-      <param name="context">Reserved for future use.</param>
+      <typeparam name="T">Type of set items.</typeparam>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.AddDictionaryItemOperation`2.Undo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="P:PostSharp.Patterns.Recording.Operations.AddSetItemOperation`1.NewItem">
       <summary>
-            Undo the current operation.
+            Gets the item before the operation.
             </summary>
-      <param name="context">Reserved for future use.</param>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.AddSetItemOperation`1.OperationKind">
+      <summary>
+            Gets the kind of operation. 
+            </summary>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.AttachObjectToRecorderOperation">
       <summary>
@@ -1630,17 +2255,27 @@
             Gets the kind of operation. 
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.AttachObjectToRecorderOperation.Redo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="T:PostSharp.Patterns.Recording.Operations.ChangeManySetOperation`1">
       <summary>
-            Redo the current operation.
+            Represents any of the set operations that add or remove multiple items
+            (e.g. <see cref="M:PostSharp.Patterns.Collections.AdvisableHashSet`1.IntersectWith(System.Collections.Generic.IEnumerable{`0})" />, <see cref="M:PostSharp.Patterns.Collections.AdvisableHashSet`1.UnionWith(System.Collections.Generic.IEnumerable{`0})" />, ...).
             </summary>
-      <param name="context">Reserved for future use.</param>
+      <typeparam name="T">Type of items in the set.</typeparam>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.AttachObjectToRecorderOperation.Undo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="P:PostSharp.Patterns.Recording.Operations.ChangeManySetOperation`1.NewItems">
       <summary>
-            Undo the current operation.
+            Gets the items that were added to the set after the operation.
             </summary>
-      <param name="context">Reserved for future use.</param>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.ChangeManySetOperation`1.OldItems">
+      <summary>
+            Gets the items that were in the set before the operation.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.ChangeManySetOperation`1.OperationKind">
+      <summary>
+            Gets the kind of operation. 
+            </summary>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.ClearCollectionOperation`1">
       <summary>
@@ -1657,18 +2292,6 @@
       <summary>
             Gets the kind of operation. 
             </summary>
-    </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.ClearCollectionOperation`1.Redo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Redo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
-    </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.ClearCollectionOperation`1.Undo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Undo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.ClearDictionaryOperation`2">
       <summary>
@@ -1687,17 +2310,21 @@
             Gets the kind of operation. 
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.ClearDictionaryOperation`2.Redo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="T:PostSharp.Patterns.Recording.Operations.ClearSetOperation`1">
       <summary>
-            Redo the current operation.
+            Represents the <see cref="M:PostSharp.Patterns.Collections.AdvisableHashSet`1.Clear" /> operation.
             </summary>
-      <param name="context">Reserved for future use.</param>
+      <typeparam name="T">Type of items in the set.</typeparam>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.ClearDictionaryOperation`2.Undo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="P:PostSharp.Patterns.Recording.Operations.ClearSetOperation`1.OldItems">
       <summary>
-            Undo the current operation.
+            Gets the items that were in the set before it was cleared.
             </summary>
-      <param name="context">Reserved for future use.</param>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.ClearSetOperation`1.OperationKind">
+      <summary>
+            Gets the kind of operation. 
+            </summary>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.CollectionOperation`1">
       <summary>
@@ -1734,9 +2361,7 @@
       <summary>
             Executes a given action on all recordable objects involved with the current <see cref="T:PostSharp.Patterns.Recording.Operation" />.
             </summary>
-      <param name="action">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="action"/&gt; documentation for "M:PostSharp.Patterns.Recording.Operations.CollectionOperation`1.VisitAffectedObjects(System.Action{System.Object})"]</p>
-      </param>
+      <param name="action"></param>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.CompositeOperation">
       <summary>
@@ -1754,25 +2379,11 @@
             Gets the kind of operation. 
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.CompositeOperation.Redo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Redo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
-    </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.CompositeOperation.Undo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Undo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
-    </member>
     <member name="M:PostSharp.Patterns.Recording.Operations.CompositeOperation.VisitAffectedObjects(System.Action{System.Object})">
       <summary>
             Executes a given action on all recordable objects involved with the current <see cref="T:PostSharp.Patterns.Recording.Operation" />.
             </summary>
-      <param name="action">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="action"/&gt; documentation for "M:PostSharp.Patterns.Recording.Operations.CompositeOperation.VisitAffectedObjects(System.Action{System.Object})"]</p>
-      </param>
+      <param name="action"></param>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.DetachObjectFromRecorderOperation">
       <summary>
@@ -1788,18 +2399,6 @@
       <summary>
             Gets the kind of operation. 
             </summary>
-    </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.DetachObjectFromRecorderOperation.Redo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Redo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
-    </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.DetachObjectFromRecorderOperation.Undo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Undo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.DictionaryOperation`2">
       <summary>
@@ -1832,65 +2431,42 @@
       <summary>
             Executes a given action on all recordable objects involved with the current <see cref="T:PostSharp.Patterns.Recording.Operation" />.
             </summary>
-      <param name="action">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="action"/&gt; documentation for "M:PostSharp.Patterns.Recording.Operations.DictionaryOperation`2.VisitAffectedObjects(System.Action{System.Object})"]</p>
-      </param>
+      <param name="action"></param>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.FieldOperation`1">
       <summary>
             Encapsulates a modification of a field value.
             </summary>
       <typeparam name="T">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;typeparam name="T"/&gt; documentation for "T:PostSharp.Patterns.Recording.Operations.FieldOperation`1"]</p>
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>typeparam</parameter>
+            <parameter>T</parameter>
+            <parameter>T:PostSharp.Patterns.Recording.Operations.FieldOperation`1</parameter>
+          </include>
+        </markup>
       </typeparam>
-    </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.FieldOperation`1.GetMergeStatus(PostSharp.Patterns.Recording.Operation)">
-      <summary>
-            Determines how a given <see cref="T:PostSharp.Patterns.Recording.Operation" /> can be merged with the current <see cref="T:PostSharp.Patterns.Recording.Operation" />.
-            </summary>
-      <param name="subsequent">The subsequent <see cref="T:PostSharp.Patterns.Recording.Operation" /> to be merged with the current one.</param>
-      <returns>A <see cref="T:PostSharp.Patterns.Recording.MergeStatus" />.</returns>
     </member>
     <member name="P:PostSharp.Patterns.Recording.Operations.FieldOperation`1.Location">
       <summary>
             Gets the <see cref="T:PostSharp.Reflection.LocationInfo" /> of the modified field.
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.FieldOperation`1.Merge(PostSharp.Patterns.Recording.Operation)">
-      <summary>
-            Merges a given <see cref="T:PostSharp.Patterns.Recording.Operation" /> into the current <see cref="T:PostSharp.Patterns.Recording.Operation" />.
-            </summary>
-      <param name="subsequent">The <see cref="T:PostSharp.Patterns.Recording.Operation" /> to merge into the current one.</param>
-    </member>
     <member name="P:PostSharp.Patterns.Recording.Operations.FieldOperation`1.OperationKind">
       <summary>
             Gets the kind of operation. 
             </summary>
-    </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.FieldOperation`1.Redo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Redo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
     </member>
     <member name="P:PostSharp.Patterns.Recording.Operations.FieldOperation`1.Target">
       <summary>
             Gets the <c>this</c> instance.
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.FieldOperation`1.Undo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Undo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
-    </member>
     <member name="M:PostSharp.Patterns.Recording.Operations.FieldOperation`1.VisitAffectedObjects(System.Action{System.Object})">
       <summary>
             Executes a given action on all recordable objects involved with the current <see cref="T:PostSharp.Patterns.Recording.Operation" />.
             </summary>
-      <param name="action">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="action"/&gt; documentation for "M:PostSharp.Patterns.Recording.Operations.FieldOperation`1.VisitAffectedObjects(System.Action{System.Object})"]</p>
-      </param>
+      <param name="action"></param>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.ICollectionOperation">
       <summary>
@@ -1983,6 +2559,26 @@
             Gets the kind of operation.
             </summary>
     </member>
+    <member name="T:PostSharp.Patterns.Recording.Operations.ISetOperation">
+      <summary>
+            Weakly-typed interface for the <see cref="T:PostSharp.Patterns.Recording.Operations.SetOperation`1" /> class.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.ISetOperation.NewItem">
+      <summary>
+            Gets the item after the operation.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.ISetOperation.OldItem">
+      <summary>
+            Gets the item before the operation.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.ISetOperation.Set">
+      <summary>
+            Gets the collection on which the operation was performed.
+            </summary>
+    </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.MethodExecutionOperationDescriptor">
       <summary>
             Represents a call to a method in user code.
@@ -2011,6 +2607,32 @@
     <member name="P:PostSharp.Patterns.Recording.Operations.MethodExecutionOperationDescriptor.Target">
       <summary>
             Gets the <c>this</c> instance.
+            </summary>
+    </member>
+    <member name="T:PostSharp.Patterns.Recording.Operations.MoveCollectionItemOperation`1">
+      <summary>
+            Represents a <see cref="M:PostSharp.Patterns.Collections.AdvisableCollection`1.Move(System.Int32,System.Int32)" /> operation.
+            </summary>
+      <typeparam name="T">Type of collection items.</typeparam>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.MoveCollectionItemOperation`1.NewIndex">
+      <summary>
+            Gets the index after the operation.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.MoveCollectionItemOperation`1.OldIndex">
+      <summary>
+            Gets the index before the operation.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.MoveCollectionItemOperation`1.OldItem">
+      <summary>
+            Gets the item after the operation.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.MoveCollectionItemOperation`1.OperationKind">
+      <summary>
+            Gets the kind of operation. 
             </summary>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.NamedOperationDescriptor">
@@ -2049,9 +2671,7 @@
       <summary>
             Executes a given action on all recordable objects involved with the current <see cref="T:PostSharp.Patterns.Recording.Operation" />.
             </summary>
-      <param name="action">
-        <p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="action"/&gt; documentation for "M:PostSharp.Patterns.Recording.Operations.RecorderOperation.VisitAffectedObjects(System.Action{System.Object})"]</p>
-      </param>
+      <param name="action"></param>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.RemoveCollectionItemOperation`1">
       <summary>
@@ -2074,17 +2694,26 @@
             Gets the kind of operation. 
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.RemoveCollectionItemOperation`1.Redo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="T:PostSharp.Patterns.Recording.Operations.RemoveCollectionRangeOperation`1">
       <summary>
-            Redo the current operation.
+            Represents a <see cref="M:PostSharp.Patterns.Collections.AdvisableCollection`1.RemoveRange(System.Int32,System.Int32)" /> operation.
             </summary>
-      <param name="context">Reserved for future use.</param>
+      <typeparam name="T">Type of collection items.</typeparam>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.RemoveCollectionItemOperation`1.Undo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="P:PostSharp.Patterns.Recording.Operations.RemoveCollectionRangeOperation`1.OldIndex">
       <summary>
-            Undo the current operation.
+            Gets the index before the operation.
             </summary>
-      <param name="context">Reserved for future use.</param>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.RemoveCollectionRangeOperation`1.OldItems">
+      <summary>
+            Gets the items that were in the collection before the operation.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.RemoveCollectionRangeOperation`1.OperationKind">
+      <summary>
+            Gets the kind of operation. 
+            </summary>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.RemoveDictionaryItemOperation`2">
       <summary>
@@ -2108,17 +2737,21 @@
             Gets the kind of operation. 
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.RemoveDictionaryItemOperation`2.Redo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="T:PostSharp.Patterns.Recording.Operations.RemoveSetItemOperation`1">
       <summary>
-            Redo the current operation.
+            Represents a <see cref="M:PostSharp.Patterns.Collections.AdvisableHashSet`1.Remove(`0)" /> operation.
             </summary>
-      <param name="context">Reserved for future use.</param>
+      <typeparam name="T">Type of set items.</typeparam>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.RemoveDictionaryItemOperation`2.Undo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="P:PostSharp.Patterns.Recording.Operations.RemoveSetItemOperation`1.OldItem">
       <summary>
-            Undo the current operation.
+            Gets the item after the operation.
             </summary>
-      <param name="context">Reserved for future use.</param>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.RemoveSetItemOperation`1.OperationKind">
+      <summary>
+            Gets the kind of operation. 
+            </summary>
     </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.SetCollectionItemOperation`1">
       <summary>
@@ -2151,18 +2784,6 @@
             Gets the kind of operation. 
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.SetCollectionItemOperation`1.Redo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Redo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
-    </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.SetCollectionItemOperation`1.Undo(PostSharp.Patterns.Recording.ReplayContext)">
-      <summary>
-            Undo the current operation.
-            </summary>
-      <param name="context">Reserved for future use.</param>
-    </member>
     <member name="T:PostSharp.Patterns.Recording.Operations.SetDictionaryItemOperation`2">
       <summary>
             Represents a <see cref="M:PostSharp.Patterns.Collections.AdvisableDictionary`2.set_Item(`0,`1)" /> operation.
@@ -2190,17 +2811,32 @@
             Gets the kind of operation. 
             </summary>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.SetDictionaryItemOperation`2.Redo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="T:PostSharp.Patterns.Recording.Operations.SetOperation`1">
       <summary>
-            Redo the current operation.
+            Base class for operations on an <see cref="T:PostSharp.Patterns.Collections.AdvisableHashSet`1" />.
             </summary>
-      <param name="context">Reserved for future use.</param>
+      <typeparam name="T">Type of items in set.</typeparam>
     </member>
-    <member name="M:PostSharp.Patterns.Recording.Operations.SetDictionaryItemOperation`2.Undo(PostSharp.Patterns.Recording.ReplayContext)">
+    <member name="P:PostSharp.Patterns.Recording.Operations.SetOperation`1.NewItem">
       <summary>
-            Undo the current operation.
+            Gets the item before the operation.
             </summary>
-      <param name="context">Reserved for future use.</param>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.SetOperation`1.OldItem">
+      <summary>
+            Gets the item after the operation.
+            </summary>
+    </member>
+    <member name="P:PostSharp.Patterns.Recording.Operations.SetOperation`1.Set">
+      <summary>
+            Gets the set on which the operation was performed.
+            </summary>
+    </member>
+    <member name="M:PostSharp.Patterns.Recording.Operations.SetOperation`1.VisitAffectedObjects(System.Action{System.Object})">
+      <summary>
+            Executes a given action on all recordable objects involved with the current <see cref="T:PostSharp.Patterns.Recording.Operation" />.
+            </summary>
+      <param name="action"></param>
     </member>
   </members>
 </doc>

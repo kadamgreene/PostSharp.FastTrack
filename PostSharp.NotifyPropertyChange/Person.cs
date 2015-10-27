@@ -7,6 +7,7 @@ using PostSharp.Patterns.Model;
 
 namespace PostSharp.NotifyPropertyChange
 {
+    [NotifyPropertyChanged]
     public class Person
     {
         public Person()
